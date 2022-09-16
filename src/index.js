@@ -1,7 +1,3 @@
-// import ReactDOM from 'react-dom';
-// import App from './App';
-// ReactDOM.render(<App/>, document.querySelector('#root'));
-
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import './index.css';
