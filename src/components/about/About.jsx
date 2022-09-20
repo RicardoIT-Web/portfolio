@@ -8,7 +8,7 @@ import {FaProjectDiagram} from 'react-icons/fa'
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
+      <h5 className='section_top'>Get to know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
@@ -33,17 +33,22 @@ const About = () => {
             <article className="about__card">
               <FaProjectDiagram className="about__icon" />
               <h5>Projects</h5>
-              <small>All Projects</small>
+              <small>My Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio a
-            rerum pariatur cupiditate exercitationem nemo dolorum repellendus.
-            Accusamus neque earum sint quos quibusdam fuga vero inventore cum
-            eligendi quidem. Ab.
+            APM certified Project Manager with 10 years of experience in Project
+            Management, during this time I have completed training on ISO
+            9001:2015, Lean Six Sigma & CDM Regulations. I have now completed my
+            Diploma in Full Stack Software Development with Code Institute,
+            accredited by Edinburgh Napier University. Experience building responsive
+            websites using HTML, CSS, JavaScript, Python, Django, React, GitHub /
+            Gitpod, AWS – S3.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
