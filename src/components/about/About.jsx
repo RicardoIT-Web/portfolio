@@ -8,6 +8,7 @@ import {FaProjectDiagram} from 'react-icons/fa'
 const About = () => {
   return (
     <section id="about">
+      <br/>
       <h5 className='section_top'>Get to know</h5>
       <h2>About Me</h2>
 
