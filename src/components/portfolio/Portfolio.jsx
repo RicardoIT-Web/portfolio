@@ -5,6 +5,7 @@ import IMG2 from '../../assets/rock-paper-scissors.png'
 import IMG3 from '../../assets/love-running-members-log.png'
 import IMG4 from '../../assets/diners3starrestaurant.png'
 import IMG5 from '../../assets/c-soars.png'
+import IMG6 from '../../assets/tic-tac-toe React.png'
 
 const data = [
   {
@@ -18,6 +19,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'Rock-Paper-Scissors Game',
+
     github: 'https://github.com/RicardoIT-Web/rock-scissors-paper',
     demo: 'https://ricardoit-web.github.io/rock-scissors-paper/'
   },
@@ -42,6 +44,13 @@ const data = [
     github: 'https://github.com/RicardoIT-Web/c-soars_ltd',
     demo: 'https://c-soars.herokuapp.com/'
   },
+  {
+    id: 6,
+    image: IMG6,
+    title: '1st React App Tic-Tac-Toe',
+    github: 'https://github.com/RicardoIT-Web/tic-tac-toe',
+    demo: 'https://ricardoit-web.github.io/tic-tac-toe/'
+  },
 ]
 
 const Portfolio = () => {
@@ -58,11 +67,11 @@ const Portfolio = () => {
               <div className="portfolio__item-img">
                 <img src={image} alt={title} />
               </div>
-            <h3>{title}</h3>
-            <div className="portfolio__item-cta">
-              <a href={github} className='btn' target="_blank" rel="noreferrer">Github Repo</a>
-              <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Deployed Site</a>
-            </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta">
+                <a href={github} className='btn' target="_blank" rel="noreferrer">Github Repo</a>
+                <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Deployed Site</a>
+              </div>
             </article>
           )
           })

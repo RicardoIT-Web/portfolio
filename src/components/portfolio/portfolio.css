@@ -33,6 +33,10 @@
     justify-content: center;
 }
 
+article > h3 {
+    text-align: center;
+}
+
 /* ==== Media Queries for tablets ==== */
 @media screen and (max-width: 1024px) {
     .portfolio__container {
