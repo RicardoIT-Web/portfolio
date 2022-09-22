@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.212131ac.css",
+    "main.js": "/portfolio/static/js/main.3d872958.js",
+    "static/media/motorbikebuddy.png": "/portfolio/static/media/motorbikebuddy.0c83d2be373a96aeaa60.png",
+    "static/media/c-soars.png": "/portfolio/static/media/c-soars.7b2f5657846ad3a4fc65.png",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.d8de6dc3a2ee17f621b3.pdf",
+    "static/media/me9.png": "/portfolio/static/media/me9.4a66280ca6a3e896564d.png",
+    "static/media/rock-paper-scissors.png": "/portfolio/static/media/rock-paper-scissors.61d53a2131c6cfd4bd77.png",
+    "static/media/tic-tac-toe React.png": "/portfolio/static/media/tic-tac-toe React.330daef21a55a33f8248.png",
+    "static/media/diners3starrestaurant.png": "/portfolio/static/media/diners3starrestaurant.f4980e664bf6437090f1.png",
+    "static/media/love-running-members-log.png": "/portfolio/static/media/love-running-members-log.23ca0b3ef6f0c34e6b6c.png",
+    "static/media/me5.png": "/portfolio/static/media/me5.5db9ad88593ff3e412ce.png",
+    "index.html": "/portfolio/index.html",
+    "main.212131ac.css.map": "/portfolio/static/css/main.212131ac.css.map",
+    "main.3d872958.js.map": "/portfolio/static/js/main.3d872958.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.212131ac.css",
+    "static/js/main.3d872958.js"
+  ]
+}
