@@ -1,3 +1,8 @@
+#experience {
+    height: 100vh;
+    padding-top: 7rem;
+}
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -6,7 +11,7 @@
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 7rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -32,7 +37,7 @@
 
 .experience__details {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .experience__details-icon {

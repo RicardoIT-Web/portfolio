@@ -5,6 +5,7 @@ import {FaUserGraduate} from 'react-icons/fa'
 import {GiBookCover} from 'react-icons/gi'
 import {FaHandshake} from 'react-icons/fa'
 import {HiFolderOpen} from 'react-icons/hi'
+import {FaCommentDots} from 'react-icons/fa'
 import {RiCellphoneFill} from 'react-icons/ri'
 import { useState } from 'react'
 
@@ -17,6 +18,7 @@ const Nav = () => {
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><GiBookCover /></a>
       <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><FaHandshake /></a>
       <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><HiFolderOpen /></a>
+      <a href="#testimonials" onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}><FaCommentDots /></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><RiCellphoneFill /></a>
     </nav>
   )

@@ -3,6 +3,8 @@ import './contact.css'
 import {MdAttachEmail} from 'react-icons/md'
 import {SiMessenger} from 'react-icons/si'
 import {RiWhatsappFill} from 'react-icons/ri'
+import {ImPointDown} from 'react-icons/im'
+
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -51,6 +53,7 @@ const Contacts = () => {
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
+      <div className='footer__icon'><a href="#footer"><ImPointDown /></a></div>
     </section>
   )
 }

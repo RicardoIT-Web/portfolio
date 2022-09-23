@@ -1,3 +1,8 @@
+#contact {
+    height: 100vh;
+    padding-top: 5rem;
+}
+
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -52,6 +57,23 @@ input, textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+}
+
+/* ==== footer icon == */
+.footer__icon {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
 }
 
 /* ==== Media Queries for tablets ==== */
