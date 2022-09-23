@@ -35,8 +35,25 @@
 
 /* ==== Media Queries for tablets ==== */
 @media screen and (max-width: 1024px) {
+    #testimonials {
+        height: 100vh;
+        padding-top: 15rem;
+    }
+
     .container.testimonials__container {
-        width: 60%;
+        width: 70%;
+    }
+
+    .client__name {
+        font-size: 1.5rem;
+    }
+
+    .client__review {
+        font-size: 1rem;
+    }
+
+    .client__avatar img {
+        width: 100%;
     }
 }
 

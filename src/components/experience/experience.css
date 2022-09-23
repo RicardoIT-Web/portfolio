@@ -42,6 +42,11 @@
 
 /* ==== Media Queries for tablets ==== */
 @media screen and (max-width: 1024px) {
+    #experience {
+        height: 100vh;
+        padding-top: 10rem;
+    }
+
     .experience__container {
         grid-template-columns: 1fr;
     }

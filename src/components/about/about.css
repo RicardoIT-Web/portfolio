@@ -6,23 +6,15 @@
 
 .about__me {
     width: 100%;
-    aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
     display: grid;
     place-items: center;
 }
 
 .about__me-img {
-    border-radius: 2rem;
+    border-radius: 50%;
     overflow: hidden;
-    padding-top: 85px;
-    width: 100%;
+    width: 73%;
 }
 
 .about__cards {
@@ -61,6 +53,11 @@
     color: var(--color-light);
 }
 
+.about__card small a {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
@@ -68,6 +65,11 @@
 
 /* ==== Media Queries tablets ==== */
 @media screen and (max-width: 1024px) {
+    #about {
+        height: 100vh;
+        padding-top: 13rem;
+    }
+
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -106,11 +108,11 @@
 @media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
-        margin: 0 3.5rem;
+        margin: 0 6.5rem;
     }
 
     .about__me-img {
-        padding-top: 45px;
+        padding-top: 3px;
     }
 
     .about__card {
@@ -136,3 +138,47 @@
     }
 }
 
+/* ==== Media Queries phones ==== */
+@media screen and (max-width: 414px) {
+    .about__content a {
+        width: 35%;
+    }
+}
+
+/* ==== Media Queries phones ==== */
+@media screen and (max-width: 375px) {
+    .me {
+        width: 12rem;
+        left: calc(50% - 6rem);
+    }
+
+    .about__me {
+        margin-left: 18%;
+    }
+}
+
+/* ==== Media Queries phones ==== */
+@media screen and (max-width: 360px) {
+    .about__me {
+        width: 70%;
+        margin: 0px 3.5rem;
+    }
+
+    .about__content a {
+        width: 50%;
+    }
+}
+
+/* ==== Media Queries phones ==== */
+@media screen and (max-width: 320px) {
+    .about__me {
+        margin-left: 16%;
+    }
+    .about__cards {
+        gap: 0.7rem;
+    }
+
+    .about__content a {
+        width: 45%;
+    }
+}

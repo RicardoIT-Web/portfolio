@@ -96,6 +96,35 @@ const Services = () => {
             </ul>
         </article>
         {/* end of content creation */}
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Project Management</h3>
+          </div>
+
+            <ul className='service__list'>
+              <li>
+                <BiCheck className='service__list-icon'/>
+                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon'/>
+                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon'/>
+                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon'/>
+                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon'/>
+                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              </li>
+            </ul>
+        </article>
+        {/* end of content creation */}
       </div>
     </section>
   )

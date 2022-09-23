@@ -8,7 +8,6 @@ import {FaProjectDiagram} from 'react-icons/fa'
 const About = () => {
   return (
     <section id="about">
-      <br/>
       <h5 className='section_top'>Get to know</h5>
       <h2>About Me</h2>
 
@@ -34,7 +33,7 @@ const About = () => {
             <article className="about__card">
               <FaProjectDiagram className="about__icon" />
               <h5>Projects</h5>
-              <small>My Projects</small>
+              <small><a href="#portfolio">My Projects</a></small>
             </article>
           </div>
           <p>
