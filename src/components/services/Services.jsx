@@ -18,23 +18,23 @@ const Services = () => {
             <ul className='service__list'>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Design of digital products and services.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Stakeholder research to understand client needs.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Writing clear specifications and guidelines.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Creating content development strategy.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Developing mockups for development and design teams.</p>
               </li>
             </ul>
         </article>
@@ -46,52 +46,52 @@ const Services = () => {
             <ul className='service__list'>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Write well-designed, testable, efficient code by using web development best practices.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Create basic website layouts and user interfaces with HTML and CSS.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Integrate data from various back-end web services and databases.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Work with stakeholders, gather and refine specifications and requirements.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Create and maintain software documentation.</p>
               </li>
             </ul>
         </article>
         {/* end of web development */}
         <article className='service'>
           <div className='service__head'>
-            <h3>Content Creation</h3>
+            <h3>Search Engine Optimization</h3>
           </div>
 
             <ul className='service__list'>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Optimizing copy and landing pages for search engine optimization.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Performing ongoing keyword discovery, expansion and optimization.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Researching and implementing content recommendations.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Work with editorial and marketing teams to drive SEO in content creation and content programming.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Recommend changes to website architecture, content, linking and other factors to improve SEO positions for target keywords.</p>
               </li>
             </ul>
         </article>
@@ -104,23 +104,23 @@ const Services = () => {
             <ul className='service__list'>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Meeting with top management and clients to identify project requirements, delivery timelines and costs.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Identifying and assigning project tasks based on the skill sets, experience and strengths of staff members.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Monitoring project performance to ensure timely delivery.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Compiling and submitting project status reports to clients, management and other stakeholders.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                <p>Working effectively with relevant stakeholders for efficient project implementation.</p>
               </li>
             </ul>
         </article>
