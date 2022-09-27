@@ -13,8 +13,9 @@
   width: 100%;
   border: 3px solid var(--color-primary);
   border-radius: 6%;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 3rem;
+  margin-top: 1rem;
 }
 
 .swiper-qual {
@@ -23,12 +24,8 @@
   align-items: center;
 }
 
-.course__name {
-  padding-bottom: 0rem;
-}
-
 .cert__desc {
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 /* ==== Media Queries for tablets ==== */

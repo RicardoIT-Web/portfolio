@@ -18,39 +18,33 @@ import { EffectCube, Pagination } from "swiper";
 const data = [
   {
     img: QUAL1,
-    name: 'Anglia Ruskin University',
     desc: 'BA (Hons) Business Management',
   },
   {
     img: QUAL2,
-    name: 'Association for Project Management',
-    desc: 'APM-PMQ',
+    desc: 'APM-Project Management Qualification',
   },
   {
     img: QUAL3,
-    name: 'Microsoft Project',
-    desc: 'The Knowledge Academy',
+    desc: 'Microsoft Project',
   },
   {
     img: QUAL4,
-    name: 'Prince2 Project Management - Foundation',
-    desc: 'APMG International',
+    desc: 'Prince2 Project Management - Foundation',
   },
   {
     img: QUAL5,
-    name: 'ISO 9001:2015',
-    desc: 'Bywater Excel',
+    desc: 'ISO 9001:2015',
   },
   {
     img: QUAL6,
-    name: 'Initial Gliding Training',
-    desc: 'Air Training Corps',
+    desc: 'Initial Gliding Training',
   },
 ]
 
 const Qualification = () => {
   return (
-    <section>
+    <section id="qualifications">
       <h5>Certifications</h5>
       <h2>Achievements</h2>
       <Swiper
@@ -66,20 +60,19 @@ const Qualification = () => {
         modules={[EffectCube, Pagination]}
         className="mySwiper"
         >
-        {data.map(({img, name, desc}, index) => {
-          return (
-            <SwiperSlide key={index}className="swiper-qual">
-              <div className="qual__cert">
-                <img src={img} alt="University Diploma"/>
-              </div>
-              <h5 className="course__name">{name}</h5>
-              <small className="cert__desc">
-                {desc}
-              </small>
-            </SwiperSlide>
-          )
-        })
-      }
+          {data.map(({img, desc}, index) => {
+            return (
+              <SwiperSlide key={index}className="swiper-qual">
+                <small className="cert__desc">
+                  {desc}
+                </small>
+                <div className="qual__cert">
+                  <img src={img} download alt="University Diploma"/>
+                </div>
+              </SwiperSlide>
+            )
+          })
+          }
       </Swiper>
     </section>
   );
