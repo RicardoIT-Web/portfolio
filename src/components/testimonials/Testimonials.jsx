@@ -50,6 +50,7 @@ const Testimonials = () => {
       spaceBetween={40}
       slidesPerView={1}
       pagination={{ clickable: true }}
+      loop={true}
       >
         {data.map(({ avatar, name, review }, index) => {
             return (

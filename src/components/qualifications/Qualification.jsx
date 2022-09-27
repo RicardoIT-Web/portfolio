@@ -11,9 +11,10 @@ import QUAL6 from '../../assets/wings.png'
 // Import Swiper styles
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
+import "swiper/css/zoom";
 
 // import required modules
-import { EffectCube, Pagination } from "swiper";
+import { Zoom, EffectCube, Pagination } from "swiper";
 
 const data = [
   {
@@ -50,6 +51,8 @@ const Qualification = () => {
       <Swiper
         effect={"cube"}
         grabCursor={true}
+        zoom={true}
+        loop={true}
         cubeEffect={{
           shadow: false,
           slideShadows: false,
@@ -57,7 +60,7 @@ const Qualification = () => {
           shadowScale: 0.00,
         }}
         pagination={{ clickable: true }}
-        modules={[EffectCube, Pagination]}
+        modules={[Zoom, EffectCube, Pagination]}
         className="mySwiper"
         >
           {data.map(({img, desc}, index) => {
@@ -66,7 +69,7 @@ const Qualification = () => {
                 <small className="cert__desc">
                   {desc}
                 </small>
-                <div className="qual__cert">
+                <div className="swiper-zoom-container qual__cert">
                   <img src={img} download alt="University Diploma"/>
                 </div>
               </SwiperSlide>

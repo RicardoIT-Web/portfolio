@@ -1,3 +1,12 @@
+#qualifications {
+  height: 100vh;
+    padding-top: 5rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
 .swiper {
   width: 20%;
   position: absolute;
