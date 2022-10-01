@@ -67,6 +67,14 @@
     }
 }
 
+
+@media screen and (max-width: 820px) {
+    #services {
+        height: 100vh;
+        padding-top: 2rem;
+    }
+}
+
 /* ==== Media Queries for phones ==== */
 @media screen and (max-width: 600px) {
     .services__container {

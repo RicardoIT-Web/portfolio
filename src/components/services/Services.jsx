@@ -46,7 +46,7 @@ const Services = () => {
             <ul className='service__list'>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Write well-designed, testable, efficient code by using web development best practices.</p>
+                <p>Write well-designed, testable, efficient code using web development best practices.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
@@ -60,10 +60,6 @@ const Services = () => {
                 <BiCheck className='service__list-icon'/>
                 <p>Work with stakeholders, gather and refine specifications and requirements.</p>
               </li>
-              <li>
-                <BiCheck className='service__list-icon'/>
-                <p>Create and maintain software documentation.</p>
-              </li>
             </ul>
         </article>
         {/* end of web development */}
@@ -75,7 +71,7 @@ const Services = () => {
             <ul className='service__list'>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Optimizing copy and landing pages for search engine optimization.</p>
+                <p>Optimizing landing pages for search engine optimization.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
@@ -87,11 +83,7 @@ const Services = () => {
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Work with editorial and marketing teams to drive SEO in content creation and content programming.</p>
-              </li>
-              <li>
-                <BiCheck className='service__list-icon'/>
-                <p>Recommend changes to website architecture, content, linking and other factors to improve SEO positions for target keywords.</p>
+                <p>Work with editorial and marketing teams to drive SEO.</p>
               </li>
             </ul>
         </article>
@@ -104,11 +96,11 @@ const Services = () => {
             <ul className='service__list'>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Meeting with top management and clients to identify project requirements, delivery timelines and costs.</p>
+                <p>Meeting all management levels to identify project requirements.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Identifying and assigning project tasks based on the skill sets, experience and strengths of staff members.</p>
+                <p>Identifying and assigning project tasks based on the skill sets.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
@@ -116,11 +108,11 @@ const Services = () => {
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Compiling and submitting project status reports to clients, management and other stakeholders.</p>
+                <p>Compiling and submitting project status reports.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon'/>
-                <p>Working effectively with relevant stakeholders for efficient project implementation.</p>
+                <p>Working effectively with relevant stakeholders.</p>
               </li>
             </ul>
         </article>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import './qualification.css'
+import QUAL0 from '../../assets/cicert1.png'
 import QUAL1 from '../../assets/bacert.png'
 import QUAL2 from '../../assets/pmq.png'
 import QUAL3 from '../../assets/msproject.png'
@@ -17,6 +18,10 @@ import "swiper/css/zoom";
 import { Zoom, EffectCube, Pagination } from "swiper";
 
 const data = [
+  {
+    img: QUAL0,
+    desc: 'Diploma - Full Stack Software Development',
+  },
   {
     img: QUAL1,
     desc: 'BA (Hons) Business Management',
