@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d6a73354.css",
+    "main.js": "/portfolio/static/js/main.806de2df.js",
+    "static/media/motorbikebuddy.png": "/portfolio/static/media/motorbikebuddy.0c83d2be373a96aeaa60.png",
+    "static/media/c-soars.png": "/portfolio/static/media/c-soars.7b2f5657846ad3a4fc65.png",
+    "static/media/bacert.png": "/portfolio/static/media/bacert.9534fd6d3ee7435233d3.png",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.d8de6dc3a2ee17f621b3.pdf",
+    "static/media/me9.png": "/portfolio/static/media/me9.4a66280ca6a3e896564d.png",
+    "static/media/rock-paper-scissors.png": "/portfolio/static/media/rock-paper-scissors.61d53a2131c6cfd4bd77.png",
+    "static/media/tic-tac-toe React.png": "/portfolio/static/media/tic-tac-toe React.330daef21a55a33f8248.png",
+    "static/media/diners3starrestaurant.png": "/portfolio/static/media/diners3starrestaurant.f4980e664bf6437090f1.png",
+    "static/media/love-running-members-log.png": "/portfolio/static/media/love-running-members-log.23ca0b3ef6f0c34e6b6c.png",
+    "static/media/prince2.png": "/portfolio/static/media/prince2.e5ba4cdc3970bffaa313.png",
+    "static/media/me5.png": "/portfolio/static/media/me5.5db9ad88593ff3e412ce.png",
+    "static/media/pmq.png": "/portfolio/static/media/pmq.8f52fd831b7b068f747d.png",
+    "static/media/iso_9001_2015.png": "/portfolio/static/media/iso_9001_2015.ec80074afa3ad8070077.png",
+    "static/media/msproject.png": "/portfolio/static/media/msproject.68f0227261a972c0ea89.png",
+    "static/media/wings.png": "/portfolio/static/media/wings.e3f9eea349c46bacbbea.png",
+    "index.html": "/portfolio/index.html",
+    "main.d6a73354.css.map": "/portfolio/static/css/main.d6a73354.css.map",
+    "main.806de2df.js.map": "/portfolio/static/js/main.806de2df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6a73354.css",
+    "static/js/main.806de2df.js"
+  ]
+}
